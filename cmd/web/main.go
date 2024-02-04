@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/coderjojo/goapi/pkg/models/mysql"
+	"github.com/coderjojo/go-gist/pkg/models/mysql"
 	_ "github.com/go-sql-driver/mysql"
 )
 
@@ -22,7 +22,9 @@ type application struct {
 func main() {
 
 	addr := flag.String("addr", ":4000", "HTTP network address")
+	// Below for dev only
 	dsn := flag.String("dsn", "web:1234@/snippetbox?parseTime=true", "MySQL database")
+
 	flag.Parse()
 
 	infoLog := log.New(os.Stdout, "INFO\t", log.Ldate|log.Ltime)

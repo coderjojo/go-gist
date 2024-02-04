@@ -1,4 +1,4 @@
-module github.com/coderjojo/goapi
+module github.com/coderjojo/go-gist
 
 go 1.21.4
 

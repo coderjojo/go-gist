@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/coderjojo/goapi/pkg/models"
+	"github.com/coderjojo/go-gist/pkg/models"
 )
 
 func (app *application) home(rw http.ResponseWriter, r *http.Request) {

@@ -4,7 +4,7 @@ import (
 	"html/template"
 	"path/filepath"
 
-	"github.com/coderjojo/goapi/pkg/models"
+	"github.com/coderjojo/go-gist/pkg/models"
 )
 
 type templateData struct {
